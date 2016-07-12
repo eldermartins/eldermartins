@@ -7,7 +7,7 @@ This is a static website built with [HarpJS](https://harpjs.com/) and served mag
 
 ## Who This Repo is For
 
-This repo is mostly for me. I, like many of you, host my code on GitHub for reasons of portability, ease of work, and peace of mind.
+This repo is mostly for me. I host my code on GitHub for reasons of portability, ease of work, and peace of mind.
 
 ## Useful commands
 
