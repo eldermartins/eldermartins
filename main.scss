@@ -1,22 +1,18 @@
-$primary-color: red;
+$max-wrapper: 50em;
 
-body{
-  font-family: "Helvetica";
-  text-align: center;
-  padding: 50px 20px 0;
-  background: #f4f4f7;
-  color: #444;
-  margin: 0;
-}
+// Definitions
 
-h1{
-  font-size: 65px;
-  line-height: 1.2em;
-  border-bottom: #CCC solid 1px;
-  padding: 20px 0;
-  color: $primary-color;
-}
+@import '_style/reset';
+@import '_style/typography';
 
-h3{
-  font-weight: 300;
-}
+// Sections
+
+@import '_style/nav';
+@import '_style/header';
+@import '_style/contact';
+@import '_style/essays-list';
+@import '_style/footer';
+
+// External
+
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);

@@ -1,0 +1,5 @@
+.essays
+  ul
+    each article, slug in public.essays._data
+      li
+        a(href="/essays/#{ slug }") #{ article.title }

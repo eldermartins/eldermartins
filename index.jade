@@ -1,6 +1,32 @@
-h1 Welcome to Harp.
-h3 This is yours to own. Enjoy.
-ul
-  each article, slug in public.essays._data
-    li
-      a(href="/essays/#{ slug }") #{ article.title }
+header
+  nav
+    != partial("_sections/nav")
+  .wrapper
+    h1
+      | Hello, my name is
+      | Elder Martins
+      i  and
+      |  I build stuff.
+    p
+      | Right now, I work as Product Designer at&nbsp;
+      a(href="https://magnetis.com.br" target="_blank") Magnetis
+      |  — a robo-advisor startup
+      br
+      | and one of the main exponents of the FinTech revolution in Brazil.
+
+article
+      p
+        | You can find me daily at&nbsp;
+        a(href="#" target="_blank") Twitter
+        | ,&nbsp;
+        a(href="#" target="_blank") Instagram
+        |  and sometimes on&nbsp;
+        a(href="#" target="_blank") Dribbble
+        | . Also, you can sign up my personal&nbsp;
+        a(href="#" target="_blank") newsletter
+        | . If you want to talk or share something with me, you can reach me through&nbsp;
+        a(href="#" target="_blank") email
+        | . Sorry, I don't have a Facebook account —&nbsp;
+        a(href="#" target="_blank") here's why.
+
+// != partial("_sections/essays")

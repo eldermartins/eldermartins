@@ -1,0 +1,36 @@
+header {
+  background-color: #F4F4F4;
+  padding: 2em 0;
+
+  h1 {
+    margin-top: 1em;
+    text-align: center;
+    font-family: $FFMetaSerif;
+    font-size: 4em;
+    color: #333;
+    font-weight: bold;
+    line-height: 1.3em;
+  }
+
+  p {
+    text-align: center;
+    font-family: $FFMeta;
+    font-size: 1.3em;
+    color: #333;
+    margin: 1.5em auto;
+
+    a {
+      color: #333;
+      text-decoration: none;
+
+      :hover {
+        color: #e74c3c;
+      }
+    }
+  }
+}
+
+.wrapper {
+  max-width: $max-wrapper;
+  margin: 0 auto;
+}

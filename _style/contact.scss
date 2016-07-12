@@ -1,0 +1,25 @@
+article {
+  margin: 2em auto;
+  padding: 0 1em;
+  box-sizing: border-box;
+  max-width: $max-wrapper;
+
+  p {
+    margin: 2em 0;
+    font-size: 1.3em;
+    font-family: $FFMeta;
+    line-height: 1.6em;
+    font-weight: lighter;
+    color: #333;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color: #e74c3c;
+
+      :hover {
+        color: #3498db;
+      }
+    }
+  }
+}
