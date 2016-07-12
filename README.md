@@ -1,7 +1,7 @@
 # Elder Martins :zap:
 This is the source code of my personal website. Here I can play with the stuff I'm learning and have the freedom to test, improve and write.
 
-This is a static website built in [HarpJS](https://harpjs.com/).
+This is a static website built with [HarpJS](https://harpjs.com/) and served magically on [Surge](https://surge.sh).
 
 [![forthebadge](http://forthebadge.com/images/badges/certified-snoop-lion.svg)](http://forthebadge.com)
 
