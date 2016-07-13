@@ -2,34 +2,19 @@ footer {
   max-width: $max-wrapper;
   margin: 0 auto;
   text-align: center;
-  padding: 3em 0 2em;
+  padding: 1em 0;
   border-top: 1px solid #eee;
 }
 
-.social {
-  margin: 0 .15em;
-  color: #ddd;
-
-  @media (min-width: 40em) {
-    margin: 0 .2em;
-  }
-}
-
-.social:hover {
-  color: #000;
-  cursor: pointer;
-}
-
 .credits {
-  max-width: 740px;
+  max-width: $max-wrapper;
   margin: 0 auto;
-  padding-bottom: 20px;
-  font-family: $Montserrat;
+  padding-bottom: 1em;
+  font-family: $FFMeta;
 
   p {
-  font-size: 0.8em;
+  font-size: 1em;
   text-align: center;
   color: #ddd;
   }
-
 }

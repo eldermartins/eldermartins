@@ -1,15 +1,54 @@
 nav {
   max-width: $max-wrapper;
   margin: 0 auto;
+  padding-bottom: 1em;
+  border-bottom: 1px #ccc solid;
 
-  h3 {
-    color: #333;
+  @media (min-width: 50em) {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  .avatar {
+    background-color: #FFD900;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url("../images/em_yellow.png");
+    background-size: cover;
+    margin: 0 0 0 1em;
     float: left;
+
+    @media (min-width: 50em) {
+      margin: 0 auto;
+    }
+  }
+
+  h3 a {
+    display: none;
+
+    @media (min-width: 50em) {
+      display: block;
+      color: #333;
+      margin: 10px 0 0 10px;
+      float: left;
+      opacity: .5;
+      font-family: $FFMeta;
+      font-size: .9em;
+      -webkit-font-smoothing: antialised;
+      color: #333;
+      font-weight: lighter;
+      text-decoration: none;
+    }
+
+    :hover {
+      color: #e74c3c;
+    }
   }
 
   ul {
+    margin: 12px auto;
     float: right;
-    margin: 10px 0;
 
     li {
       display: inline;
