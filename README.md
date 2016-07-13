@@ -28,6 +28,7 @@ harp compile
 * [Harp Documentation](https://harpjs.com/docs/)
 * [Start a blog with Harp](http://kennethormandy.com/journal/start-a-blog-with-harp)
 * [Surge.sh](http://surge.sh)
+* [HTML2Jade](http://html2jade.org)
 
 ## License
 
