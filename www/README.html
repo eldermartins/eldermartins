@@ -2,11 +2,14 @@
 </script></head><body><h1>Elder Martins :zap:</h1><p>This is the source code of my personal website. Here I can play with the stuff I&#39;m learning and have the freedom to test, improve and write.</p>
 <p>This is a static website built with <a href="https://harpjs.com/">HarpJS</a> and served magically on <a href="https://surge.sh">Surge</a>.</p>
 <h2>Who This Repo is For</h2><p>This repo is mostly for me. I host my code on GitHub for reasons of portability, ease of work, and peace of mind.</p>
-<h2>Usage</h2><h4>1. Start the web server</h4><pre><code>harp server --port 9000
-</code></pre><h4>2. Make changes</h4><h4>3. Compile</h4><pre><code>harp compile
-</code></pre><h4>4. Send to surge.sh</h4><pre><code>surge
-</code></pre><p>Remember to send just the <code>www</code> folder</p>
-<h4>5. Grab a beer :beer:</h4><h2>Useful commands</h2><h4>Harp Server</h4><p>Running a Harp as a server or <em>multihost</em> is the primary purpose of the tool. This command is designed to run and serve a single app located on your computer.</p>
+<h2>Usage</h2><ol>
+<li>Start the web server: <code>harp server --port 9000</code></li>
+<li>Make changes</li>
+<li>Compile: <code>harp compile</code></li>
+<li>Send <strong>www</strong> folder to surge.sh: <code>surge</code></li>
+<li>Grab a beer :beer:</li>
+</ol>
+<h2>Useful commands</h2><h4>Harp Server</h4><p>Running a Harp as a server or <em>multihost</em> is the primary purpose of the tool. This command is designed to run and serve a single app located on your computer.</p>
 <pre><code>harp server [my-harp-blog]
 </code></pre><h4>Compile</h4><p>Export your harp site to flat static assets – HTML / CSS / JavaScript.</p>
 <pre><code>harp compile
