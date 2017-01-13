@@ -7,6 +7,28 @@ This is a static website built with [HarpJS](https://harpjs.com/) and served mag
 
 This repo is mostly for me. I host my code on GitHub for reasons of portability, ease of work, and peace of mind.
 
+## Usage
+
+#### 1. Start the web server
+```
+harp server --port 9000
+```
+
+#### 2. Make changes
+#### 3. Compile
+```
+harp compile
+```
+
+#### 4. Send to surge.sh
+```
+surge
+```
+
+Remember to send just the `www` folder
+
+#### 5. Grab a beer :beer:
+
 ## Useful commands
 
 
