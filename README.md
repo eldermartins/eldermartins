@@ -3,8 +3,6 @@ This is the source code of my personal website. Here I can play with the stuff I
 
 This is a static website built with [HarpJS](https://harpjs.com/) and served magically on [Surge](https://surge.sh).
 
-[![forthebadge](http://forthebadge.com/images/badges/certified-snoop-lion.svg)](http://forthebadge.com)
-
 ## Who This Repo is For
 
 This repo is mostly for me. I host my code on GitHub for reasons of portability, ease of work, and peace of mind.
@@ -13,7 +11,7 @@ This repo is mostly for me. I host my code on GitHub for reasons of portability,
 
 
 #### Harp Server
-Running a Harp as a server or multihost is the primary purpose of the tool. This command is designed to run and serve a single app located on your computer.
+Running a Harp as a server or *multihost* is the primary purpose of the tool. This command is designed to run and serve a single app located on your computer.
 ```
 harp server [my-harp-blog]
 ```
