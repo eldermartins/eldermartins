@@ -3,3 +3,27 @@ $Droid: 'Droid Serif', serif;
 
 $FFMetaSerif: "ff-meta-serif-web-pro", serif;
 $FFMeta: "ff-meta-web-pro",sans-serif;
+
+.colophon {
+  h1 {
+    font-size: .75em;
+    font-family: $Montserrat;
+    text-align: center;
+    margin: 1em 0 0 0;
+    color: #CCCCCC;
+  }
+
+  p {
+    margin: 1em 0 3em 0;
+    font-size: .75em;
+    color: #BCBCBC;
+
+    a {
+      color: #3498db;
+    }
+
+    a:hover {
+      color: #e74c3c;
+    }
+  }
+}
