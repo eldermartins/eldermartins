@@ -7,3 +7,31 @@ header.haikai {
     height: 300px;
   }
 }
+
+.haikai-button {
+  a {
+    border: 1px #ecf0f1 solid;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #bdc3c7;
+    font-family: $FFMeta;
+  }
+
+  a:hover {
+    border: 1px #3498db solid;
+  }
+}
+
+article p.haikai-button {
+    margin: 2em 0 0 0;
+
+    @media (min-width: 50em) {
+      margin: 3em 0;
+    }
+}
+
+input[type="text"] {
+  padding: 10px 20px;
+  color: #bdc3c7;
+  font-family: $FFMeta;
+}

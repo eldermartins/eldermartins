@@ -8,6 +8,9 @@ html
     //Google Domain
     meta(name='google-site-verification', content='pDAwougaLpLwF5e9bapueLXu2HwBFVuKN00Ok96vRHk')
 
+    // Random links
+    script(src="/js/randomlink.js")
+    
     // Typekit Fonts
     script(src='https://use.typekit.net/rgd0iwr.js')
     script.
@@ -19,5 +22,9 @@ html
         != partial("../_sections/nav")
     article.haikai
       != yield
+
+      p.haikai-button
+        a(href="javascript:randomlink();") mais um&nbsp; <i class="fa fa-random" aria-hidden="true"></i>
+
     footer
       != partial("../_sections/footer")
