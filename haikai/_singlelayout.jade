@@ -1,11 +1,10 @@
 doctype
 html
   head
-    title= title
-    meta(name="description" content="#{ description }")
+    title Elder Martins | Haikai
     meta(name='viewport', content='width=device-width, initial-scale=1')
     link(rel='icon', type='image/x-icon', href='../images/favicon.ico')
-    link(rel="stylesheet" href="/main.css")
+    link(rel="stylesheet" href="../main.css")
     //Google Domain
     meta(name='google-site-verification', content='pDAwougaLpLwF5e9bapueLXu2HwBFVuKN00Ok96vRHk')
 
@@ -15,6 +14,10 @@ html
       try{Typekit.load({ async: true });}catch(e){}
 
   body
-    != yield
+    header
+      nav
+        != partial("../_sections/nav")
+    article.haikai
+      != yield
     footer
-      != partial("_sections/footer")
+      != partial("../_sections/footer")
