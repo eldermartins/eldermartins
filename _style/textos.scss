@@ -34,3 +34,79 @@ article {
     }
   }
 }
+
+article.textos {
+  max-width: 700px;
+
+  h1 {
+    text-align: left;
+    font-size: 2.5em;
+    font-family: $Droid;
+    margin: .3em 0;
+    color: rgba(0,0,0,.8);
+  }
+
+  h2 {
+    font-size: 1.5em;
+    font-family: $FFMetaSerif;
+    //text-transform: uppercase;
+    margin: 2.5em 0 .5em 0;
+    color: rgba(0,0,0,.8);
+  }
+
+  p {
+    font-size: 1.3em;
+    text-align: left;
+    font-family: $FFMeta;
+    margin: 1.5em 0;
+  }
+
+  ol li {
+    font-size: 1.3em;
+    text-align: left;
+    font-family: $FFMeta;
+    margin: 1em 0 1em 1em;
+    color: rgba(0,0,0,.8);
+  }
+
+  a.backbutton {
+    color: #D6E4F4;
+
+    :hover {
+      color: #e74c3c;
+    }
+  }
+
+  hr {
+    $color: rgba(0,0,0,.8);
+    color: $color;
+    // height: 8px;
+    border-width: 0 0 8px;
+    border-style: solid;
+    border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="#{$color}" cx="1" cy="0.5" r="0.5"/></svg>') 0 0 100% repeat;
+    width: 55px;
+    margin: 3em auto;
+    padding: 0;
+  }
+}
+
+.tagtitle {
+  color: #e74c3c;
+  text-align: left;
+  margin: 2em 0 0 0;
+}
+
+article.textos p.author {
+  color: red;
+  font-family: $Droid;
+}
+
+blockquote {
+  border-left: 5px #CCCCCC solid;
+  //font-style: italic;
+  padding-left: 20px;
+
+  p {
+    color: rgba(0,0,0,.5);
+  }
+}

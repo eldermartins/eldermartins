@@ -1,0 +1,27 @@
+doctype
+html
+  head
+    title Elder Martins | Textos
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='icon', type='image/x-icon', href='../images/favicon.ico')
+    link(rel="stylesheet" href="../main.css")
+    //Google Domain
+    meta(name='google-site-verification', content='pDAwougaLpLwF5e9bapueLXu2HwBFVuKN00Ok96vRHk')
+
+    // Typekit Fonts
+    script(src='https://use.typekit.net/rgd0iwr.js')
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
+
+  body
+    header.textos
+      nav
+        != partial("../_sections/nav")
+    article.textos
+      a(href="../textos" class="backbutton" alt="Voltar") <i class="fa fa-long-arrow-left fa-lg" aria-hidden="true"></i>
+      h3.tagtitle= tags
+      h1= title
+      != yield
+
+    footer
+      != partial("../_sections/footer")

@@ -1,0 +1,11 @@
+{
+  "index": {
+    "layout": "../_layout.jade",
+    "title": "Elder Martins | Textos"
+  },
+  "roleta-russa-uma-viagem-literaria": {
+    "title": "Roleta-russa: uma viagem literária",
+    "tags": "literatura",
+    "author": "Elder Martins"
+  }
+}
