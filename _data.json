@@ -3,6 +3,7 @@
     "title": "Elder Martins | Product Designer"
   },
   "404": {
-    "title": "Elder Martins | 404"
+    "title": "Elder Martins | 404",
+    "layout": "_404layout.jade"
   }
 }

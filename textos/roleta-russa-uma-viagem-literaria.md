@@ -6,6 +6,11 @@ Bauhaus e berço de vanguardas artísticas como o suprematismo e o construtivism
 Os professores eram alguns dos artistas e arquitetos mais renomados da época,
 como Rodchenko, El Lissitzky, Kandinsky, Tatlin e Malevich.
 
+<figure class="img-full">
+  <img src="http://fryemuseum.org/images/exhibition_images/Rodchenko_Books-460.jpg" alt="Rodchenko">
+  <p class="caption">Alexander Rodchenko: “Livros”, 1924. Cartaz para o departamento estatal da imprensa de Leningrado (Utilizando a foto de Lilya Brik)</p>
+</figure>
+
 O que mais me chamou a atenção no *Vkhutemas* foi o fato de que, mesmo tendo
 estudado História da Arte e História do Design na faculdade, nunca tinha sequer
 ouvido falar disso. Ao procurar sobre o assunto na internet, achei pouquíssimas
@@ -61,7 +66,14 @@ Além da ordenação dos autores, eu também poderia fazer uma ordenação das o
 
 ## Sobre edições e traduções
 
-Logo quando comecei a organizar este projeto surgiu a primeira barreira. Notei que existem pouquíssimas edições e traduções do russo para português (e até mesmo para inglês). É notável o esforço da [Editora 34](http://www.editora34.com.br) e sua *Coleção Leste* em traduzir com qualidade e difundir os autores do alfabeto cirílico (entre outros do leste europeu). Também são notáveis a dedicação e habilidade de caras como [Boris Schnaiderman](http://www1.folha.uol.com.br/ilustrissima/2016/06/1782772-a-trajetoria-unica-de-boris-schnaiderman.shtml) e Paulo Bezerra que fizeram com que as traduções disponíveis fossem tão fluídas que você esquece que aquilo foi escrito originalmente em outra língua.
+<figure class="img-half">
+  <img src="http://zh.rbsdirect.com.br/imagesrc/19238745.jpg?w=640" alt="Boris Schnaiderman">
+  <p class="caption">O tradutor Boris Schnaiderman com quase 100 anos de idade, em sua casa em São Paulo.</p>
+</figure>
+
+Logo quando comecei a organizar este projeto surgiu a primeira barreira. Notei que existem pouquíssimas edições e traduções do russo para português (e até mesmo para inglês). É notável o esforço da [Editora 34](http://www.editora34.com.br) e sua *Coleção Leste* em traduzir com qualidade e difundir os autores do alfabeto cirílico (entre outros do leste europeu).
+
+Também são notáveis a dedicação e habilidade de caras como [Boris Schnaiderman](http://www1.folha.uol.com.br/ilustrissima/2016/06/1782772-a-trajetoria-unica-de-boris-schnaiderman.shtml) e Paulo Bezerra que fizeram com que as traduções disponíveis fossem tão fluídas que você esquece que aquilo foi escrito originalmente em outra língua.
 
 Dito isso, a escolha das obras de cada autor é limitada pela disponibilidade de boas traduções diretamente do russo para português.
 
@@ -111,7 +123,7 @@ A princípio, pode parecer que esta configuração descrita seja rígida e infle
 Você pode acompanhar o andamento deste projeto me seguindo aqui no Medium. Também pode dar uma olhada no meu perfil do [Goodreads](https://www.goodreads.com/user/show/34775188-elder-martins), se quiser.
 
 E assim, declaro iniciada essa jornada.   
-удачи!
+поехали!
 
 ---
 
