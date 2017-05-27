@@ -1,7 +1,7 @@
 Não sei dizer exatamente como ou quando meu interesse pela história e cultura russa começou.
 
 Uma pulga pulou na minha orelha quando comentaram comigo sobre o [Vkhutemas](https://pt.wikipedia.org/wiki/Vkhutemas)
-(acrônimo em russo para Escola Superior de Arte e Técnica), uma precursora da
+(acrônimo em russo para Escola Superior de Arte e Técnica), contemporânea da
 Bauhaus e berço de vanguardas artísticas como o suprematismo e o construtivismo.
 Os professores eram alguns dos artistas e arquitetos mais renomados da época,
 como Rodchenko, El Lissitzky, Kandinsky, Tatlin e Malevich.
